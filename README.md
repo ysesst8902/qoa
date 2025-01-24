@@ -1,44 +1,15 @@
-![QOA Logo](https://qoaformat.org/qoa-logo-new.svg)
+# Project Overview
 
-# QOA - The “Quite OK Audio Format” for fast, lossy audio compression
+This repository is based on the implementation of the original method proposed by the authors. You can find their official `README.md` and detailed documentation at the following link:
 
-Single-file MIT licensed library for C/C++
+[Original Method README](<https://github.com/phoboslab/qoa/blob/master/README.md>)
 
-See [qoa.h](https://github.com/phoboslab/qoa/blob/master/qoa.h) for
-the documentation and format specification.
+## Our Implementation
 
-More info at: https://qoaformat.org
+We have extended and implemented this method with our modifications and additional enhancements. For a detailed explanation of our approach, rationale, and results, please refer to our HackMD documentation:
 
-Audio samples in WAV & QOA format can be found at: https://qoaformat.org/samples/
+[Our Implementation on HackMD](<https://hackmd.io/@sysprog/rJEa1UC4yg>)
 
+---
 
-⚠️ This implementation has not yet been fuzzed. Don't use it with untrusted input.
-
-
-## Alternative Implementations of QOA
-
-- [pfusik/qoa-fu](https://github.com/pfusik/qoa-fu) - Fusion, transpiling to
-[C](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOA.c),
-[C++](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOA.cpp),
-[C#](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOA.cs),
-[D](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOA.d),
-[Java](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOADecoder.java),
-[JavaScript](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOA.js),
-[Python](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOA.py),
-[Swift](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOA.swift)
-and [TypeScript](https://github.com/pfusik/qoa-fu/blob/master/transpiled/QOA.ts)
-- [qoa-format](https://github.com/mattdesl/qoa-format) - JavaScript encoder/decoder
-- [JohannesFriedrich/qoa4R](https://github.com/JohannesFriedrich/qoa4R) - R
-- [rafaelcaricio/qoaudio](https://github.com/rafaelcaricio/qoaudio) - Pure Rust zero-dependency decoder implementation
-- [AuburnSounds/audio-formats](https://github.com/AuburnSounds/audio-formats) - D library, supports QOA
-- [braheezy/goqoa](https://github.com/braheezy/goqoa) - Go library and CLI tool
-- [HaxelWorks/qoa-python](https://github.com/HaxelWorks/qoa-python) - Python wrapper using cffi
-- [Cl Qoa](https://shinmera.github.io/cl-qoa/) - Common Lisp
-
-## QOA Support in Other Software
-
-- [Godot Engine](https://godotengine.org) - supports compressing WAV files into QOA since 4.3
-- [raylib](https://github.com/raysan5/raylib) - supports decoding QOA samples through its [raudio module](https://github.com/raysan5/raylib/blob/master/src/raudio.c)
-- [SerenityOS](https://github.com/SerenityOS/serenity) supports QOA system wide through [QOALoader.h](https://github.com/SerenityOS/serenity/blob/master/Userland/Libraries/LibAudio/QOALoader.h)
-- [Qmmp](https://github.com/TTK-qmmp/qmmp-qoa) - supports decoding QOA samples
-- [Visual Studio Code](https://github.com/microsoft/vscode): supports playing QOA files with the [QOA Preview extension](https://github.com/braheezy/vscode-qoa-preview)
+Feel free to explore the links above and reach out if you have any questions or suggestions!
